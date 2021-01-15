@@ -9,7 +9,7 @@
 
 
 
-#### 环境准备：Node、TortoiseSVN
+### 环境准备：Node、TortoiseSVN
 
 1. 修改 post-commit-hook.js 中的  ```username``` 为自己昵称
 
