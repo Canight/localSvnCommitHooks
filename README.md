@@ -1,4 +1,14 @@
 # localSvnCommitHooks
+
+##### 写在前头
+
+- 因为种种原因暂时无法在服务器上添加hook脚本，于是自己写了一个用
+- 为了整合成一个js文件，尽量不使用第三方库，纯原生实现（以后可能会整理成package）
+- 刚写了一个能用的，还有很多缺陷，包括机器人的url得自行截取，可用多种写法实现，具体请参考node.js官方文档
+- 有什么问题欢迎提issue
+
+
+
 #### 环境准备：Node、TortoiseSVN
 
 1. 修改 post-commit-hook.js 中的  ```username``` 为自己昵称
